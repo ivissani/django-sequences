@@ -12,7 +12,7 @@ UPSERT_QUERY = """
 
 def get_next_value(
         sequence_name='default', initial_value=1, reset_value=None,
-        *, nowait=False, using=None):
+        nowait=False, using=None):
     """
     Return the next value for a given sequence.
 
